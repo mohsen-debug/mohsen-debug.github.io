@@ -4,15 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am a CFD engineer with a passion for understanding how numerical modeling and simulations can solve real world problems more efficiently. In this site I keep 
+track of different projects that I have worked on and some nitty-gritty CFD 
+matters that I tend to forget!
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+- [LinkedIn](www.linkedin.com/in/mohsenka)
+- [GitHub](https://github.com/karimimp)

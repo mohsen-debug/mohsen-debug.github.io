@@ -1,0 +1,13 @@
+I"}<p>From 2014 to 2017 I was a postdoctoral researcher at <a href="http://www.disat.polito.it/research/research_groups/musychen/multiscale_modelling_for_materials_science_and_process_engineering">Politecnico di Torino</a> working on MoDeNa project. MoDeNa was a multidiciplinary project that aimed at developing, demonstrating and assessing an easy-to-use multi-scale software-modeling framework under an open-source licensing scheme that delivers models with feasible computational loads for process and product design of polyurethane foams. The main scheme behind MoDeNa was to link different modeling tools developed for nano-, meso-, and macro scales with an uniform platform for simulation of foaming process.</p>
+
+<p><img src="/assets/projects_images/foam_states.png?raw=true" /></p>
+
+<p>The foam was described as a continuum and the population balance equation (PBE) was applied to determine the evolution of the bubble size distribution (BSD) during the foaming process. The novelty was on-the-fly coupling of the macro-scale model to the other tools derived from different length scales. For example a schematic illustration of communication between macro-scale and meso-scale is shown below. The <a href="https://github.com/MoDeNa-EUProject/MoDeNa">MoDeNa repository</a> is available online for further info.</p>
+
+<p><img src="/assets/projects_images/connections.png?raw=true" /></p>
+
+<p>A new <a href="https://www.openfoam.com/">OpenFOAM</a> solver was also developed which is based on coupling of CFD with PBE. The PBE is solved with quadrature method of moments (QMOM) and the solver accounts for polymerization kinetics, rheology of foam, and foam thermal conductivity. The new solver is labeled as <code class="language-plaintext highlighter-rouge">PUFoam</code> and for the first time validated for 12 different cases. For more information about the solver you can check out the <a href="https://github.com/karimimp/PUFoam">PUFoam</a> repository.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hkjpoRFQDLY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+:ET

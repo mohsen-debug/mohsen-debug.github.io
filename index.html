@@ -1,0 +1,17 @@
+---
+layout: default
+title: Index
+---
+
+  <article class="post index" role="article">
+  <!-- <h1 class="post-title">{{ site.description }}</h1> -->
+  <!-- <img src="/assets/logo_transparent.png" alt="Logo" style="width:350px;height:350px;"> -->
+  <a class="site-title" rel="author" href="{{ "/" | relative_url }} ">
+    {%- if site.title-logo -%}
+      <img src="{{ site.title-logo | relative_url }}" alt="{{ site.title | escape }} "></img> 
+      {%- else -%}
+        {{ site.title | escape }}
+        {%- endif -%}
+  </a>
+  </article>
+
